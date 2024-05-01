@@ -116,8 +116,6 @@ displayRoles();
 // Gestionnaire d'événements pour le formulaire
 document.getElementById("rolesForm").addEventListener("submit", function(event) {
     event.preventDefault();
-    // Vous pouvez ajouter ici le code pour envoyer les données mises à jour au serveur si nécessaire
     alert("Roles updated successfully!");
-    // window.location.href = "index.html";
 });
 

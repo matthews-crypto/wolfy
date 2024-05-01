@@ -9,28 +9,28 @@
 <body>
     <div class="container">
         <h1>Loup-Garou Manager</h1>
-        <label for="playerName">Enter Your Name:</label>
+        <label for="playerName">Entrez votre nom:</label>
         <input type="text" id="playerName" placeholder="Your Name">
-        <button class="but" onclick="revealRole()">Reveal My Role</button>
+        <button class="but" onclick="revealRole()">Decouvrir mon role</button>
         <br>
         <div id="roleDisplay"></div>
-        <br>
-        <h2>!Ne pas oublier d'appuyer sur j'ai vu mon role avant de passer l'appareil!</h2>
-        <button class="but" onclick="seenRole()">I've Seen My Role</button>
+      
+        <h2>Ne pas oublier d'appuyer sur j'ai vu mon role avant de passer l'appareil!</h2>
+        <button class="but" onclick="seenRole()">J'ai vu mon role</button>
         <br><br><br>
         <h2>Ce bouton ne devra etre appuyer que par le (la) moderateur (trice)</h2>
-        <button class="but" onclick="startGame()">Start Game</button>
+        <button class="but" onclick="startGame()">Lancer la partie</button>
         
         <div id="playerList" style="display:none;">
-            <h2>Player List</h2>
+            <h2>Lites des joueurs</h2>
             <ul id="players"></ul>
         </div>
-        <h1>Update Roles</h1>
+        <h1>Ajuster les roles</h1>
         <form id="rolesForm">
             <ul id="rolesList">
                 <!-- Les rôles et les boutons + et - seront ajoutés ici dynamiquement -->
             </ul>
-            <button type="submit">Validate</button>
+            <button type="submit">Enregitrer</button>
         </form>
     </div>
 
