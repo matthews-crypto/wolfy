@@ -1,7 +1,7 @@
 // Tableau de rôles avec le nombre de chaque rôle
 const roles = [
-    { name: "Loup-garou", count: 5 },
-    { name: "Villageois", count: 5 },
+    { name: "Loup-garou", count: 1 },
+    { name: "Villageois", count: 1 },
     { name: "sorciere", count: 1 },
     { name: "voyante", count: 1 },
     { name: "cupidon", count: 1 },
