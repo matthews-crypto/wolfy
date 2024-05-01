@@ -11,21 +11,29 @@
         <h1>Loup-Garou Manager</h1>
         <label for="playerName">Enter Your Name:</label>
         <input type="text" id="playerName" placeholder="Your Name">
-        <button onclick="revealRole()">Reveal My Role</button>
-        <br><br><br>
-        <h2>Une fois que vous avez vu votre role appuyez sur ce bouton avant de passer l'appareil au joueur suivant</h2>
-        <button onclick="seenRole()">I've Seen My Role</button>
-        <br><br><br>
+        <button class="but" onclick="revealRole()">Reveal My Role</button>
+        <br>
         <div id="roleDisplay"></div>
+        <br>
+        <h2>!Ne pas oublier d'appuyer sur j'ai vu mon role avant de passer l'appareil!</h2>
+        <button class="but" onclick="seenRole()">I've Seen My Role</button>
         <br><br><br>
         <h2>Ce bouton ne devra etre appuyer que par le (la) moderateur (trice)</h2>
-        <button onclick="startGame()">Start Game</button>
+        <button class="but" onclick="startGame()">Start Game</button>
         
         <div id="playerList" style="display:none;">
             <h2>Player List</h2>
             <ul id="players"></ul>
         </div>
+        <h1>Update Roles</h1>
+        <form id="rolesForm">
+            <ul id="rolesList">
+                <!-- Les rôles et les boutons + et - seront ajoutés ici dynamiquement -->
+            </ul>
+            <button type="submit">Validate</button>
+        </form>
     </div>
+
     <script src="wolfy.js"></script>
 </body>
 </html>
