@@ -2,12 +2,13 @@
 const roles = [
     { name: "Loup-garou", count: 1 },
     { name: "Villageois", count: 1 },
-    { name: "sorciere", count: 1 },
-    { name: "voyante", count: 1 },
-    { name: "cupidon", count: 1 },
+    { name: "Sorciere", count: 1 },
+    { name: "Voyante", count: 1 },
+    { name: "Cupidon", count: 1 },
     { name: "Loup-Blanc", count: 1 },
-    { name: "salvateur", count: 1 },
-    { name: "chasseur", count: 1 },
+    { name: "Salvateur", count: 1 },
+    { name: "Chasseur", count: 1 },
+    { name: "Loup-Infect", count: 1 },
     // Ajoutez d'autres rôles selon vos besoins
 ];
 
