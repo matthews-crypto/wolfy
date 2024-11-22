@@ -1,16 +1,19 @@
 // Tableau de rôles avec le nombre de chaque rôle
 const roles = [
     
-    { name: "Villageois", count: 1 },
-    { name: "Sorciere", count: 1 },
-    { name: "Voyante", count: 1 },
-    { name: "Salvateur", count: 1 },
-    { name: "Chasseur", count: 1 },
-    { name: "Cupidon", count: 1 },
-    { name: "Petite fille", count: 1 },
-    { name: "Loup-Blanc", count: 1 },
-    { name: "Loup-garou", count: 1 },
-    { name: "Loup-Infect", count: 1 },
+    { name: "Villageois ", count: 1 },
+    { name: "Sorciere ", count: 1 },
+    { name: "Voyante ", count: 1 },
+    { name: "Salvateur ", count: 1 },
+    { name: "Chasseur ", count: 1 },
+    { name: "Cupidon ", count: 1 },
+    { name: "Petite Fille ", count: 1 },
+    { name: "Fou ", count: 1 },
+    { name: "Fils de la lune ", count: 1 },
+    { name: "Idiot du village ", count: 1 },
+    { name: "Loup-Blanc ", count: 1 },
+    { name: "Loup-Garou ", count: 1 },
+    { name: "Loup-Infect ", count: 1 },
     // Ajoutez d'autres rôles selon vos besoins
 ];
 
@@ -121,4 +124,3 @@ document.getElementById("rolesForm").addEventListener("submit", function(event) 
     event.preventDefault();
     alert("Roles updated successfully!");
 });
-
